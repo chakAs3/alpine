@@ -1,7 +1,7 @@
 export default defineAppConfig({
   alpine: {
-    title: 'Alpine',
-    description: 'The minimalist blog theme',
+    title: 'Storybook for Vue/Nuxt',
+    description: 'The blog for nuxters and vue developers that love Storybook.',
     image: {
       src: '/social-card-preview.png',
       alt: 'An image showcasing my project.',
@@ -13,7 +13,7 @@ export default defineAppConfig({
       logo: {
         path: '/logo.svg', // path of the logo
         pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'alpine' // alt of the logo
+        alt: 'Storybook Vue' // alt of the logo
       }
     },
     footer: {

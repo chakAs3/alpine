@@ -5,16 +5,19 @@ export default defineAppConfig({
     image: {
       src: '/social-card-preview.png',
       alt: 'An image showcasing my project.',
-      width: 400,
-      height: 300
+      width: 600,
+      height: 400
     },
     header: {
-      position: 'right', // possible value are : | 'left' | 'center' | 'right'
+      position: 'left', // possible value are : | 'left' | 'center' | 'right'
       logo: {
         path: '/logo.svg', // path of the logo
         pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'Storybook Vue' // alt of the logo
-      }
+        alt: 'Storybook Vue', // alt of the logo
+        height:400,
+        width: 500
+      },
+      
     },
     footer: {
       credits: {
